@@ -559,6 +559,7 @@ RUN  \
         --extra-ldflags="-L${PREFIX}/lib" \
         --extra-libs=-ldl \
         --extra-libs=-lpthread \
+        --enable-librav1e \
         --prefix="${PREFIX}" && \
         make clean && \
         make && \
